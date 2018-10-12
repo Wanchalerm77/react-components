@@ -2,6 +2,7 @@ import React from "react";
 import {FaInstagram, FaFacebook, FaSnapchat, FaTwitter} from "react-icons/fa"
 import "./Icon.css"
 
+
 const Icon = () => {
 
     const iconFont = {
