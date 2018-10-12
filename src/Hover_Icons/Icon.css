@@ -1,0 +1,73 @@
+.layer {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left:0;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ul {
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding:0;
+}
+
+ul li {
+    list-style-type: none;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 0 30px;
+    transform: rotate(-30deg) skew(25deg);
+    font-size: 25px
+}
+
+ul li:hover span:nth-child(5) {
+    transform: translate(40px, -40px);
+    opacity: 1;
+}
+
+ul li:hover span:nth-child(4) {
+    transform: translate(30px, -30px);
+    opacity: 0.8;
+}
+
+ul li:hover span:nth-child(3) {
+    transform: translate(20px, -20px);
+    opacity: 0.6;
+}
+
+ul li:hover span:nth-child(2) {
+    transform: translate(10px, -10px);
+    opacity: 0.4;
+}
+
+ul li:hover span:nth-child(1) {
+    transform: translate(0, 0);
+    opacity: 0.2;
+}
+.facebook-color span {
+    background: #3b5998;
+}
+.snapchat_color span {
+    background: #fffc00;
+}
+.instagram_color span {
+    background: #e1306c;
+}
+
+.twitter_color span {
+    background: #1da1f2;
+}
